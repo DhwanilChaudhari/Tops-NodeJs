@@ -1,0 +1,15 @@
+Q1. What is Express.js?
+Ans.Express.js is a fast, flexible and minimalist web framework for Node.js. 
+It’s effectively a tool that simplifies building web applications and APIs using JavaScript on the server side. 
+Express is an open-source that is developed and maintained by the Node.js foundation.
+
+const express = require('express');
+const app = express();
+
+// Define routes and middleware here
+// ...
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
